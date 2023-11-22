@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 240, 208);
+    color: white;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+  
+}
+.nav{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+    text-transform: uppercase;
+    opacity: .98;
+}
+nav img{
+    height: 60px;
+    opacity: 1;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:55px
+}
+.nav3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:55px
+}
+nav button{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.main h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+   color: rgb(255, 250, 227);
+    
+    
+}
+h1 span{
+background-image: linear-gradient(rgb(255, 25, 25),rgb(208, 0, 0),rgb(154, 0, 0),rgb(81, 0, 0),rgb(34, 32, 32));
+font-size: 22px;
+color: rgb(153, 255, 0);
+border-radius: 30px;
+padding: 20px;
+margin: 0 14px;
+}
+#hh1{
+    margin-top: 35px;
+}
+#img1,#img2,#img3{
+    height: 25%;
+    width: 12%;
+    border-radius: 10px;
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    object-fit: cover;
+    object-position: center;
+}
+#img2{
+    top: 65%;
+    left: 85%;
+}
+.scroldown{
+    position: absolute;
+    left: 50%;
+    bottom:5%;
+    transform: translate(-50%,0);
+    color: white;
+    font-size: 19px;
+    opacity: 0;
+
+
+}
+
